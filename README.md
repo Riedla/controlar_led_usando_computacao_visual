@@ -1,3 +1,1 @@
-Este projecto estou controlando o estado de um led usando computacao visual em python e Arduino para controlar o estado de um led. 
-Ao detectar que ele levantou um dedo, enviara via serial para o arduino o comando ON para ligar o led que esta conectado ao arduino e quando levantar dois dedos
-enviara o comando OFF para desligar o led.
+Este projeto utiliza visão computacional com Python, em conjunto com um Arduino, para controlar o estado de um LED. O sistema é capaz de detectar gestos de mão, onde, ao levantar um dedo, é enviado um comando via comunicação serial para o Arduino, acionando o LED (comando "ON"). Quando dois dedos são detectados, o sistema envia o comando "OFF", desligando o LED. Essa interação simples e intuitiva explora a integração entre visão computacional e controle de hardware para criar uma interface de controle por gestos eficiente e funcional.
